@@ -1,0 +1,70 @@
+/*fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.root {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-background-color: #EADBC8;
+}
+
+/* Estilo del título */
+.label {
+    -fx-text-fill: #5C4033;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+/* Estilo de la tabla */
+.table-view {
+    -fx-background-color: #FAE3D9;
+    -fx-border-color: #C8A888;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0, 0, 2);
+}
+
+/* Columnas de la tabla */
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-font-size: 14px;
+    -fx-text-fill: #5C4033;
+}
+
+
+.text-field {
+    -fx-background-color: #FFF5E1;
+    -fx-border-color: #C8A888;
+    -fx-border-radius: 8px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #A67C52;
+    -fx-border-width: 2px;
+}
+
+/* Botones */
+.button {
+    -fx-background-color: #8B5E3C;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-padding: 8px 15px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #6F4E37;
+}
+
+.button:pressed {
+    -fx-background-color: #5C4033;
+}
+
+
+.hbox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+}
